@@ -17,7 +17,7 @@ describe("Mathematical Ops", () => {
     it("One minus one is zero", () => {
         result = sub(1, 1);
         if (result !== 0) { throw Error("Result should be zero!") }
-    })
+    });
 });
 
 const makeConnection = () => 1;
